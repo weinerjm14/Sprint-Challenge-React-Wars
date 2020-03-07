@@ -13,14 +13,14 @@ let PersonCompnent = (props) => {
     
     return (
         <PersonCompnentStyle>
-        <p>Name: {props.name}</p>
-        <p>Height: {props.height} </p>
-        <p>Weight: {props.mass} "kg"</p>
-        <p>Hair Color: {props.hair_color}</p>
-        <p>Skin Color: {props.skin_color}</p>
-        <p>Eye Color: {props.eye_color}</p>
-        <p>Born: {props.birth_year}</p>
-        <p>Gender:  {props.gender}</p>
+            <p>Name: {props.name}</p>
+            <p>Height: {props.height} </p>
+            <p>Weight: {props.mass} "kg"</p>
+            <p>Hair Color: {props.hair_color}</p>
+            <p>Skin Color: {props.skin_color}</p>
+            <p>Eye Color: {props.eye_color}</p>
+            <p>Born: {props.birth_year}</p>
+            <p>Gender:  {props.gender}</p>
         </PersonCompnentStyle>
     )
 }
