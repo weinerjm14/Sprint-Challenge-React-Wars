@@ -17,9 +17,17 @@ const App = () => {
   }, []);
   console.log("outside", people)
 
+  const AppContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 0 auto;
+  `;
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <AppContainer>
       {people.map(item => {
         return <PersonContainer 
         name = {item.name}
@@ -32,6 +40,7 @@ const App = () => {
         gender = {item.gender}
         />
       })}
+      </AppContainer>
     </div>     
   )
 }
