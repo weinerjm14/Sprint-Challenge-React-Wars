@@ -9,7 +9,7 @@ const App = () => {
   const [people, setPeople] = useState([]);
   useEffect(() => {
     axios
-      .get("https://swapi.py4e.com/api/people/")
+      .get("https://swapi.dev/api/people")
       .then(response => {
         setPeople(response.data.results);
       })
